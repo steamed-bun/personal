@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<title>包子烦恼的个人小站</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0"/>
+		<meta content="telephone=no,email=no" name="format-detection"/>
+		<link rel="stylesheet" href="css/bootstrap.css" type="text/css"/>
+		<link rel="stylesheet" href="css/base.css" type="text/css"/>
+		<style type="text/css">
+			/*---------------------联系我开始---------------------------*/
+			.contact_me{
+				text-align:center;
+				color:#00751D;
+				margin:6.5rem 0 4rem 0;
+			}
+			@-moz-document url-prefix() {
+  				fieldset { display: table-cell; }
+			}
+			.table-hover > tbody > tr:hover{
+				background-color:#A6E189;
+			}
+			/*---------------------联系我结束---------------------------*/
+		</style>
+		<link rel="stylesheet" href="css/contact.css" type="text/css"/>
+	</head>
+	<body>
+		<!-- 导航条开始 -->
+		<div class="navbar navbar-default navbar-fixed-top my_nav_bar">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">
+						<img src="imgs/logo.jpg" class="my_logo_img"/>
+					</a>
+					<p class="navbar-text">
+						欢迎来到包子烦恼的个人主页
+						<span class="my-down-list hidden-lg hidden-md hidden-sm pull-right"><img src="imgs/my-down-list.png"/></span>
+					</p>
+				</div>
+				<p class="navbar-text navbar-right hidden-xs">
+					<a href="index.html" class="navbar-link to_my_works">作品集</a>
+					<a href="Java后台开发+王雪+2017年应届.pdf" class="navbar-link">个人简历</a>
+					<a href="index.html" class="navbar-link to_my_skills">IT技能</a>
+					<a href="https://github.com/steamed-bun" class="navbar-link">Github</a>
+					<a href="#" class="navbar-link">联系我</a>
+				</p>
+				<ul class="my-link">
+					<li><a href="index.html"  class="to_my_works">作品集</a></li>
+					<li><a href="Java后台开发+王雪+2017年应届.pdf">个人简历</a></li>
+					<li><a href="index.html"  class="to_my_skills">IT技能</a></li>
+					<li><a href="https://github.com/steamed-bun"  class="to_my_skills">Github</a></li>
+					<li><a href="#">联系我</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- 导航条结束 -->
+		<!-- 联系我开始 -->
+		<h3 class="contact_me">----------欢迎与我联系----------</h3>
+		<section class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+						<table class="table table-hover">
+							<tr>
+								<td>序号</td>
+								<td>类别</td>
+								<td>方式</td>
+							</tr>
+							<tr>
+								<td>01</td>
+								<td>个人简历</td>
+								<td><a href="Java后台开发+王雪+2017年应届.pdf">点击查看</a></td>
+							</tr>
+							<tr>
+								<td>02</td>
+								<td>手机号码</td>
+								<td>18829289582</td>
+							</tr>
+							<tr>
+								<td>03</td>
+								<td>邮    箱</td>
+								<td>wx18829289582@163.com</td>
+							</tr>
+							<tr>
+								<td>04</td>
+								<td>Github地址</td>
+								<td><a href="https://github.com/steamed-bun">https://github.com/steamed-bun</a></td>
+							</tr>
+						</table>
+				</div>
+			</div>
+		</section>
+		<!-- 联系我结束 -->
+		<!-- 页面底部开始 -->
+		<footer class="container-fluid">
+			<div class="row footer_boxs">
+				<div class="col-sm-4 col-xs-12 footer_txt_box rel_my_info">
+					<h3>关于我</h3>
+					<p>西邮2017本科应届生</p>
+					<p>热爱编程，正在去往<span class="my_dream">Java开发</span>技术大神的路上撒丫狂奔。。</p>
+					<p>联系电话：188-2928-9582</p>
+				</div>
+				<div class="col-sm-4 col-xs-12 footer_txt_box rel_my_link">
+					<h3>友情链接</h3>
+					<p><a href="Java后台开发+王雪+2017年应届.pdf">个人简历</a></p>
+					<p><a href="https://github.com/steamed-bun">Github</a></p>
+				</div>
+				<div class="col-sm-4 col-xs-12 footer_txt_box">
+					<h3>关于此站</h3>
+					<p class="rel_web">此站用于展示一下我的个人项目，同时勉励自己可以继续学习，完成更好的项目。</p>
+				</div>
+			</div>
+		</footer>
+		<!-- 页面底部结束 -->
+		<script src="js/jquery-1.12.3.js"></script>
+		<script>
+			$('.my-down-list').click(function(){
+				$('.my-link').slideToggle("normal");
+			});
+		</script>
+
+	</body>
+</html>
