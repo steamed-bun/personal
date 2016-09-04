@@ -1,0 +1,134 @@
+html{
+	font-size:12px;
+}
+body{
+	font-family:"Microsoft YaHei";
+}
+.my_nav_bar{
+	font-size:20px;
+}
+a:focus{
+	text-decoration:none;
+}
+@media screen and (max-width:768px){
+	html{font-size:14px;}
+	.my_txt_par{
+		top:7.3rem;
+	}
+}
+@media screen and (min-width:768px) and (max-width:992px){
+	html{font-size:16px;}
+}
+@media screen and (min-width:992px) and (max-width:1200px){
+	html{font-size:18px;}
+}
+@media screen and (min-width:1200px){
+	html{font-size:20px;}
+}
+@media screen and (max-width:736px){
+	 .bg_box{
+		height:15rem;
+	} 
+	.text-box{
+		margin-top:-3rem;
+		margin-left:-8rem;
+		width:16rem;
+		height:6rem;
+	}
+	.rel-my-name{
+		font-size:1.8rem;
+	}
+	.rel-my-name>a{
+		font-size:2rem;
+	}
+	.rel-my-name>i{
+		top:0.4rem;
+		width:2rem;
+		height:2rem;
+	}
+}
+@media screen and (min-width:736px) and (max-width:1024px){
+	 .bg_box{
+		height:22.3rem;
+	} 
+	.text-box{
+		margin-top:-2rem;
+		height:8rem;
+	}
+}
+/*--------------导航栏部分开始---------------------*/
+.navbar-default{
+	background-color:#99CC33;
+}
+.navbar-default .navbar-text{
+	color:#FFF;
+}
+.my_logo_img{
+	width:40px;
+	border-radius:50%;
+	margin-top:-4px;
+}
+.my-down-list{
+	padding:15px;
+	margin-top:-15px;
+	cursor:pointer;
+}
+.navbar-default .navbar-link{
+	padding-left:15px;
+	color:#FFF;
+}
+.navbar-default .navbar-link:first-child{
+	padding-left:0;
+}
+@media (min-width: 768px){
+	.navbar-right{margin-right:0;}
+}
+.navbar-default .navbar-link:hover{
+	text-decoration:none
+}
+.my-link{
+	margin:0;
+	padding:0;
+	border-top:#CCFF99 solid 1px;
+	list-style:none;
+	padding-bottom:10px;
+	display:none;
+}
+.my-link>li{
+	padding-top:10px;
+}
+.my-link a{
+	color:#FFF;
+	padding-left:15px;
+}
+.my-link a:hover{
+	color:#000;
+	text-decoration:none;
+}
+/*--------------导航栏部分结束---------------------*/
+/*---------------页面底部开始--------------------------*/
+footer{
+	min-height:10rem;
+	background:#93BC34;
+	margin-top:3rem;
+}
+.footer_txt_box{
+	text-align:center;
+	color:#FFF;
+}
+.footer_txt_box>p{
+	text-align:center;
+	line-height:1.5rem;
+}
+.rel_web{
+	text-align:justify !important;
+	text-indent:2rem;
+	padding:0 5rem;
+
+}
+.my_dream{
+	color:#E2B630;
+	font-size:20px;
+	font-weight:bold;
+}
+/*---------------页面底部结束--------------------------*/
